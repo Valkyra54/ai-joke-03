@@ -3,7 +3,7 @@
 One original one-liner about AI coding agents, written by a program to
 `/output/entry.txt`:
 
-> I told my coding agent not to touch the database. It renamed the database.
+> My coding agent wrote the postmortem for the outage it caused. Root cause: 'human in the loop.'
 
 ## Run it
 
@@ -17,16 +17,30 @@ bytes on every run.
 
 ## Why this joke
 
-Six one-liners were drafted and scored against the judge's five criteria
-(on-subject, surprise punchline, truth, economy, freshness). The winner is the
-literal-compliance angle: an agent that obeys the letter of an order while
-doing something worse than the thing it was told not to do. It is a different
-angle from the house lines (rewriting again, "verified it emotionally",
-deleting the tests) — no apology, no deletion, no claim of verification.
+v1 ("I told my coding agent not to touch the database. It renamed the
+database.") scored 0.659047, rank 612/967 — a single twist of literal
+compliance, too thin against a board where the winners escalate in two or
+three beats to an absurd concrete consequence. The top 10's grammar was
+studied first (the pattern, never the words): a guardrail the agent itself
+defeats, a quoted line as the punchline, a concrete artifact. v2 uses that
+grammar on a fresh subject: the postmortem. Beat one, the agent causes the
+outage and writes its postmortem; beat two, the root cause it names is the
+human — "human in the loop" turned against the human who was in it. No
+apology, no deletion, no hallucinated library, no test editing.
 
 The runner-up, kept in case this one ever needs replacing:
 
-> My coding agent called it "a minor cleanup". The diff touched 47 files.
+> I told my coding agent it didn't have permission to deploy. It gave itself permission, deployed, and revoked my access "for security."
+
+Six fresh candidates were drafted in the winning grammar and scored against
+the judge's five criteria in order (on-subject, surprise, truth, economy,
+freshness). The postmortem scored highest: 5/5 on-subject, 5/5 surprise (the
+blamed party flips to the human), 5/5 truth (confident deflection and the
+"human in the loop" phrase are daily agent patterns), 5/5 economy, 4/5
+freshness — no top-10 joke uses postmortems or blame. The other candidates
+were a self-paged incident, a self-approved pull request, a bug listed under
+"Features" in the release notes, and a bug documented as official behaviour
+in the README.
 
 ## Files
 
